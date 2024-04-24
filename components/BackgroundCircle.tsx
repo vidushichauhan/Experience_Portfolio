@@ -5,6 +5,7 @@ type Props = {}
 
 export default function BackgroundCircle({}: Props) {
   return (
+
     <div className='flex justify-center items-center w-full h-screen'>
       <motion.div 
         initial={{ opacity: 0 }}

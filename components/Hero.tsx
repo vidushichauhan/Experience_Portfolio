@@ -27,7 +27,14 @@ function Hero() {
           <span>{text}</span>
           <Cursor cursorColor='red' />
         </h1>
+        <div className='mt-5 space-x-3'>
+          <button className='heroButton'>About</button>
+          <button className='heroButton'>Experience</button>
+          <button className='heroButton'>Skills</button>
+          <button className='heroButton'>Project</button>
+        </div>
       </div>
+      
     </div>
   );
 }
