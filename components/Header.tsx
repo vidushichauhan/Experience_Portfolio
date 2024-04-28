@@ -21,7 +21,7 @@ export default function Header({}: Props) {
       transition={{
         duration:1.5
       }}
-      className='flex flex-row item-center space-x-1 px-1 mt-1'
+      className='flex flex-row item-center space-x-3 px-5 mt-2'
      >
         <SocialIcon url="https://www.linkedin.com/in/vidushi-chauhan-1615ab184/ " bgColor='black' />
         <SocialIcon url="https://github.com/vidushichauhan" />
