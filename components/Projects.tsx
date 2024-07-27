@@ -18,6 +18,7 @@ const Projects = (props: Props) => {
     
     <div className='relative flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20'>
       {projects.map((project,i)=>(
+        // eslint-disable-next-line react/jsx-key
         <div className='justify-center flex-shrink-0 snap-center flex flex-col space-y-5 p-20 md:p-44 h-screen '>
           <img className='w-100 h-100' src="https://tms-outsource.com/blog/wp-content/uploads/2023/02/it-project-manager.jpg" style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img>
           <div className='space-y-10 px-0 md:px-10 max-w-6xl'>

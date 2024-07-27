@@ -1,6 +1,9 @@
 import { motion } from 'framer-motion'
 import React from 'react'
-import ExperienceCard from './ExperienceCard'
+import DellExperience from './DellExperience'
+import CognizantInternship from './CognizantInternship'
+import OngcExperience from './OngcExperience'
+import DellExperience2 from './DellExperience2'
 
 type Props = {}
 
@@ -16,12 +19,13 @@ const WorkExperience = (props: Props) => {
         <h2 className='absolute top-24 text-gray-500 tracking-[20px] uppercase'>Work Experience</h2>
 
         <div className='mt-20 w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory'>
+            <DellExperience2/>
             {/*ExperienceCard */}
-            <ExperienceCard/>
+            <DellExperience/>
             {/*ExperienceCard */}
-            <ExperienceCard/>
+            <CognizantInternship/>
             {/*ExperienceCard */}
-            <ExperienceCard/>
+            <OngcExperience/>
         </div>
         </motion.div>
   )

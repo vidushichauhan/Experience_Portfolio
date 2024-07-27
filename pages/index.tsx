@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="h-screen snap-y snap-mandatory overflow-scroll z-0">
       <Head>
-        <title> Vidushi's Portfolio</title>
+        <title> Vidushi Chauhan</title>
       </Head>
       {/* Header */}
       <Header></Header>
